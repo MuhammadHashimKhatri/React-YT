@@ -1,0 +1,14 @@
+const Card = (props) => {
+    console.log(props)
+  return (
+          <div className="card">
+        <img src={props.img} alt="" />
+        <h1>{props.user}, {props.age}</h1>
+        <p>lorem ipsum dolor sit amet</p>
+        <button>View profile</button>
+      </div>
+
+  )
+}
+
+export default Card
